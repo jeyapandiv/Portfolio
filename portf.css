@@ -1,8 +1,8 @@
 body {
     background-color: lightcoral;
-    margin: 0;
-    width: 100vw;
-    height: 100vh;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
 }
 
 img {
@@ -29,7 +29,8 @@ img {
 }
 
 .header {
-    padding: 300px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     background: rgb(246, 166, 166);
     color: white;
@@ -40,10 +41,6 @@ img {
 a:hover {
     font-size: xx-large;
     
-}
-
-#login {
-    padding-left: 100px;
 }
 
 .blog {
@@ -57,9 +54,14 @@ a:hover {
 .blog h1 {
     color: aliceblue;
 }
+#login {
+    padding-left: 100px;
+    color: rgb(230, 122, 122);
+    text-shadow: 1px 0px;
+}
 
 #cn {
-    padding-left: 1000px;
+    padding-left: 500px;
 }
 
 div i {
@@ -71,7 +73,7 @@ div i {
 }
 
 #iTag {
-    font-size: 30px;
+    font-size: 20px;
     padding-right: 10px;
 }
 
